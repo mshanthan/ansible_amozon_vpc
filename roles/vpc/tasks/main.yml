@@ -1,0 +1,4 @@
+---
+- include_tasks: setup.vpc.yml
+- include_tasks: setup.gateways.yml
+- include_tasks: facts.yml
